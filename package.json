@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "format": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "jimp": "^0.16.1",
     "minimist": "^1.2.5",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "prettier": "2.3.0"
   }
 }
