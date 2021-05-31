@@ -6,14 +6,20 @@ A simple app generating cat greeting cards using images of cats from _Cat as a S
 
 A recent version of nodejs is recommended as the code uses modern JS syntax without depending on transpiling.
 
-```
+```sh
 npm install
 npm start
 ```
 
 ### Command Options
 
-The following arguments can be passed to `npm start` command
+The following arguments can be passed to `npm start` command. Please note you need to separate commands send to program using `--`
+
+```sh
+# Eg
+# npm run <command> [-- <args>]
+npm start -- --output card.jpg
+```
 
 ```
 --greeting  The greeting text
